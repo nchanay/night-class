@@ -1,0 +1,153 @@
+body {
+  background-image: url(http://fullhdwall.com/wp-content/uploads/2016/08/Widescreen-Space.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10em;
+}
+
+.container {
+  padding: 1em;
+  background-color: lightgray;
+  border-radius: 10px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.8);
+  border: 1px solid dimgray;
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+  grid-template-rows: auto repeat(6, 60px);
+  grid-gap: 5px;
+  grid-template-areas:
+    "p       p       p       p"
+    "display display display display"
+    "AC      CE      mult    div"
+    "seven   eight   nine    sub"
+    "four    five    six     add"
+    "one     two     three   eq"
+    "zero    zero    dec eq"
+}
+
+.calcname {
+  grid-area: p;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#AC {
+  grid-area: AC;
+}
+
+#CE {
+  grid-area: CE;
+}
+
+#mult {
+  grid-area: mult;
+}
+
+#div {
+  grid-area: div;
+}
+
+#sub {
+  grid-area: sub;
+}
+
+#add {
+  grid-area: add;
+}
+
+#eq {
+  grid-area: eq;
+}
+
+#dec {
+  grid-area: dec;
+}
+
+#zero {
+  grid-area: zero;
+}
+
+#one {
+  grid-area: one;
+}
+
+#two {
+  grid-area: two;
+}
+
+#three {
+  grid-area: three;
+}
+
+#four {
+  grid-area: four;
+}
+
+#five {
+  grid-area: five;
+}
+
+#six {
+  grid-area: six;
+}
+
+#seven {
+  grid-area: seven;
+}
+
+#eight {
+  grid-area: eight;
+}
+
+#nine {
+  grid-area: nine;
+}
+
+.num, #dec {
+  color: white;
+  background-color: purple;
+}
+
+.op, #eq {
+  color: white;
+  background-color: dimgray;
+}
+
+.clear {
+  color: white;
+  background-color: darkred;
+}
+
+.btn {
+  outline: solid;
+  outline-width: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+#display {
+  background-color: white;
+  grid-area: display;
+  outline: solid;
+  outline-width: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: 'Orbitron', sans-serif;
+  padding-right: 5px;
+  font-size: 2.3em;
+}

@@ -1,0 +1,199 @@
+/* Company CSS */
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  color: #191919;
+  font-size: 1.5em;
+}
+
+small {
+  font-size: .60em;
+}
+
+hr {
+  border: 1px solid white;
+}
+
+footer {
+    background: lightgray;
+    color: 191919;
+
+    padding: 3em;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
+
+.row {
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.col {
+
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #191919;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #d9d9d9;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #fefecf;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+a.logotext {
+  font-family: "Bungee Shade", sans-serif;
+  font-size: 2em;
+  padding: 0;
+  border-bottom: 1px solid white;
+}
+
+.sbox {
+  width: 100%;
+}
+
+.sfield {
+  padding-bottom: 1em;
+}
+
+.cta {
+  background: url("/kbc.jpg");
+  background-size: cover;
+  background-position: 50% 60%;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+
+  padding: 7em;
+}
+
+.btn {
+  background-color: #191919;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.flex-grid-thirds {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  background-color: #C17115;
+  padding: 2em;
+}
+
+.flex-grid-thirds .col {
+  width: 33.33%;
+}
+
+.cat1 {
+  background: url("/smallcat.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  width: auto;
+  height: 300px;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.cat2 {
+  background: url("/mcat.jpg");
+  background-size: cover;
+  background-position: 50% 25%;
+  width: auto;
+  height: 300px;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.cat3 {
+  background: url("/bigcat.jpg");
+  background-size: cover;
+  background-position: 50% 40%;
+  width: auto;
+  height: 300px;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.lrlr, .row {
+    display: flex;
+    align-items: center;
+}
+
+.lrlr-one, .lrlr-three{
+    background: lightgray;
+    color: 191919;
+}
+
+.lrlr-two {
+    background: #C17115;
+}
+
+.left, .right {
+    padding: 5em 3em;
+}
+
+.left h2, .right h2 {
+    font-family: "Fugaz One", sans-serif;
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.clients {
+    display: flex;
+    height: 50vh;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #C17115
+}
+
+.clients img {
+    width: 300px;
+}

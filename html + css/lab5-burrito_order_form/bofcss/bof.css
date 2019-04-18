@@ -1,0 +1,101 @@
+/* Burrito Order Form */
+body {
+  padding: 1em;
+}
+
+header {
+  background-color: #FF4B00;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  text-align: center;
+  padding: 3em;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3em;
+}
+
+header hr {
+  border-top: 7px solid white;
+  border-radius: 3px;
+  width: 90%;
+}
+
+hr {
+  border-top: 1px solid white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+.grid1 {
+  grid-column-start: 1;
+}
+
+.grid2 {
+  grid-column-start: 2;
+  background-color: yellow;
+  /* border: 1px solid; */
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+  margin: 1em;
+  padding: 1em;
+}
+
+.grid3 {
+  grid-column-start: 3;
+  background-color: orange;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+  margin: 1em;
+  margin-right: 0;
+  padding: 1em;
+}
+
+.container {
+  padding-bottom: 1em;
+  background-color: white;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+
+.container1 {
+  background-color: white;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+
+.tilt-right {
+  padding: 1em;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+  border-radius: 5px;
+  /* border: 1px solid; */
+  margin: 1em;
+  transform: rotate(4deg);
+  margin-top: 3em;
+  background-color: orange;
+}
+
+.tilt-left {
+  padding: 1em;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+  border-radius: 5px;
+  /* border: 1px solid; */
+  margin: 1em;
+  transform: rotate(-4deg);
+  margin-top: 3em;
+  background-color: orange;
+}
+
+.royboy {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}

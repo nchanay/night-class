@@ -1,0 +1,37 @@
+body {
+  background-color: gray;
+  color: white;
+}
+
+iframe {
+    border: 2px solid white;
+    width: 900px;
+    height: 600px;
+    padding: 1em;
+    background-color: black;
+}
+
+#header {
+  text-align: center;
+  padding: 1em;
+  height: 80px
+}
+
+#urlbtn {
+  border: solid;
+  outline-width: 1px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10em;
+  height: 3em;
+  border-radius: 10px;
+  background-color: purple;
+}
+
+#fholder {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}

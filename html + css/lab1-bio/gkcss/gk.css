@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(50, 50, 50);
+  color: rgb(281, 165, 32);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-style: solid;
+  border-width: 2px;
+  color: lightyellow;
+}
+
+p {
+  margin: 0 500px;
+}
+
+h2 {
+  color: lightyellow;
+}
+
+h3 {
+  color: lightyellow;
+}
+
+ul {
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+  list-style-image: url(https://goldensunwiki.net/w/images/1/1f/Star_none.gif);
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
+
+.picture {
+  width: 40%;
+  height: auto;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  border-radius: 25px;
+}
+
+.picture2 {
+  width: 19%;
+  height: auto;
+  float: left;
+  padding-right: 5px;
+}
+
+.heading {
+  font-size: 3em;
+  color: lightyellow;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+
+.noshadow {
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0);
+}
+
+ul.italic {
+  font-style: italic;
+}
